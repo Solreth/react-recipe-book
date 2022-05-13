@@ -4,6 +4,8 @@ import RecipeCreate from "./RecipeCreate";
 import RecipeList from "./RecipeList";
 import RecipeData from "./RecipeData";
 
+const url = `${process.env.REACT_APP_API_BASE_URL}/recipe-book`;
+
 function App() {
   const [recipes, setRecipes] = useState(RecipeData);
 
